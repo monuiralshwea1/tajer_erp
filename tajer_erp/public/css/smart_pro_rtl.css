@@ -1,0 +1,18 @@
+/* Smart Pro — RTL fixes: workspace sidebar icon on the right side. */
+html[dir="rtl"] .desk-sidebar .desk-sidebar-item .item-anchor {
+	display: flex;
+	align-items: center;
+}
+
+html[dir="rtl"] .desk-sidebar .desk-sidebar-item .sidebar-item-icon {
+	order: -1;
+	margin-inline-end: 8px;
+	flex: 0 0 auto;
+}
+
+html[dir="rtl"] .desk-sidebar .desk-sidebar-item .sidebar-item-label {
+	flex: 1 1 auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

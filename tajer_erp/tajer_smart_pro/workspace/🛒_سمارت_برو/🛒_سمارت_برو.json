@@ -1,0 +1,726 @@
+{
+ "charts": [],
+ "content": "[{\"id\": \"y0qzcrtg2t\", \"type\": \"header\", \"data\": {\"col\": 12, \"text\": \"<b>\u26a1 \u0627\u062e\u062a\u0635\u0627\u0631\u0627\u062a \u0633\u0631\u064a\u0639\u0629</b>\"}}, {\"id\": \"kpu8wny0q8\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83e\uddfe \u0641\u0627\u062a\u0648\u0631\u0629 \u0645\u0628\u064a\u0639\u0627\u062a \u062c\u062f\u064a\u062f\u0629\"}}, {\"id\": \"nhv3f9njsp\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83e\uddfe \u0642\u0627\u0626\u0645\u0629 \u0641\u0648\u0627\u062a\u064a\u0631 \u0627\u0644\u0645\u0628\u064a\u0639\u0627\u062a\"}}, {\"id\": \"gyg9u52tjr\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83d\udce6 \u0641\u0627\u062a\u0648\u0631\u0629 \u0645\u0634\u062a\u0631\u064a\u0627\u062a \u062c\u062f\u064a\u062f\u0629\"}}, {\"id\": \"qhn51i274v\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83d\udce6 \u0642\u0627\u0626\u0645\u0629 \u0641\u0648\u0627\u062a\u064a\u0631 \u0627\u0644\u0645\u0634\u062a\u0631\u064a\u0627\u062a\"}}, {\"id\": \"rmg5fefdhi\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83d\udcdd \u0639\u0631\u0636 \u0633\u0639\u0631 \u062c\u062f\u064a\u062f\"}}, {\"id\": \"6bvw449gxx\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83d\udccb \u0623\u0645\u0631 \u0645\u0628\u064a\u0639 \u062c\u062f\u064a\u062f\"}}, {\"id\": \"3wzwrbda0h\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83c\udff7 \u0635\u0646\u0641 \u062c\u062f\u064a\u062f\"}}, {\"id\": \"7a3wblqz2j\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83d\udc64 \u0639\u0645\u064a\u0644 \u062c\u062f\u064a\u062f\"}}, {\"id\": \"ttp0k86l1p\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83d\ude9a \u0645\u0648\u0631\u062f \u062c\u062f\u064a\u062f\"}}, {\"id\": \"qult8a0gf1\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83d\udcb5 \u0633\u0646\u062f \u0642\u0628\u0636 \u062c\u062f\u064a\u062f\"}}, {\"id\": \"g8gfmxhhea\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83d\udcb3 \u0633\u0646\u062f \u062f\u0641\u0639 \u062c\u062f\u064a\u062f\"}}, {\"id\": \"gwqqb7cha2\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83d\udce5 \u0642\u064a\u062f \u0645\u062e\u0632\u0646\u064a \u062c\u062f\u064a\u062f\"}}, {\"id\": \"9tpqjmxo6f\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83d\udc65 \u0645\u0648\u0638\u0641 \u062c\u062f\u064a\u062f\"}}, {\"id\": \"bs9i9iarg3\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83d\udc64 \u0645\u0633\u062a\u062e\u062f\u0645 \u062c\u062f\u064a\u062f\"}}, {\"id\": \"s5c2qmzbwv\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\u2795 \u0625\u0646\u0634\u0627\u0621 \u062d\u0633\u0627\u0628\"}}, {\"id\": \"iv81sk5v85\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"i5pj2wup3a\", \"type\": \"header\", \"data\": {\"col\": 12, \"text\": \"<b>\ud83d\udca1 \u0647\u0630\u0647 \u0628\u0637\u0627\u0642\u0627\u062a \u062a\u0633\u0647\u0651\u0644 \u0627\u0644\u0639\u0645\u0644 \u2014 \u062a\u0633\u062a\u0637\u064a\u0639 \u0641\u062a\u062d \u0623\u064a \u0646\u0627\u0641\u0630\u0629 \u0641\u064a \u0627\u0644\u0646\u0638\u0627\u0645 \u0645\u0646 \u062e\u0644\u0627\u0644 \u0627\u0644\u0636\u063a\u0637 \u0639\u0644\u0649 \u0627\u0633\u0645 \u0627\u0644\u0648\u0627\u062c\u0647\u0629</b>\"}}, {\"id\": \"fcidjxmufr\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"09b3yqexrx\", \"type\": \"card\", \"data\": {\"col\": 4, \"card_name\": \"\ud83e\uddfe \u0627\u0644\u0645\u0628\u064a\u0639\u0627\u062a\"}}, {\"id\": \"xcuxrbjpa8\", \"type\": \"card\", \"data\": {\"col\": 4, \"card_name\": \"\ud83d\udce6 \u0627\u0644\u0645\u0634\u062a\u0631\u064a\u0627\u062a\"}}, {\"id\": \"igfz4z9xu3\", \"type\": \"card\", \"data\": {\"col\": 4, \"card_name\": \"\ud83d\udce6 \u0627\u0644\u0645\u062e\u0632\u0648\u0646 \u0648\u0627\u0644\u0623\u0633\u0639\u0627\u0631\"}}, {\"id\": \"zyfaorgfdo\", \"type\": \"card\", \"data\": {\"col\": 4, \"card_name\": \"\ud83d\udcb0 \u0627\u0644\u062d\u0633\u0627\u0628\u0627\u062a\"}}, {\"id\": \"5c7g2eyeke\", \"type\": \"card\", \"data\": {\"col\": 4, \"card_name\": \"\ud83e\uddee \u0627\u0644\u0636\u0631\u0627\u0626\u0628 \u0648\u0642\u0648\u0627\u0644\u0628 \u0627\u0644\u0641\u0648\u0627\u062a\u064a\u0631\"}}, {\"id\": \"poeqz1zznm\", \"type\": \"card\", \"data\": {\"col\": 4, \"card_name\": \"\ud83d\udcb0 \u0627\u0644\u0645\u062f\u0641\u0648\u0639\u0627\u062a \u0648\u0627\u0644\u0642\u064a\u0648\u062f\"}}, {\"id\": \"eqxav8ospb\", \"type\": \"card\", \"data\": {\"col\": 4, \"card_name\": \"\u2699\ufe0f \u0625\u0639\u062f\u0627\u062f\u0627\u062a \u0627\u0644\u0646\u0638\u0627\u0645 \u0627\u0644\u0639\u0627\u0645\u0629\"}}, {\"id\": \"x7g9siqyzh\", \"type\": \"card\", \"data\": {\"col\": 4, \"card_name\": \"\u2b50 \u0627\u0644\u062a\u0642\u0627\u0631\u064a\u0631\"}}]",
+ "creation": "2026-10-14 23:11:22.448943",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "shopping-cart",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "\ud83d\uded2 \u0633\u0645\u0627\u0631\u062a \u0628\u0631\u0648",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83e\uddfe \u0627\u0644\u0645\u0628\u064a\u0639\u0627\u062a",
+   "link_count": 6,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Customer",
+   "link_count": 0,
+   "link_to": "Customer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quotation",
+   "link_count": 0,
+   "link_to": "Quotation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sales Order",
+   "link_count": 0,
+   "link_to": "Sales Order",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Delivery Note",
+   "link_count": 0,
+   "link_to": "Delivery Note",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sales Invoice",
+   "link_count": 0,
+   "link_to": "Sales Invoice",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payment Entry",
+   "link_count": 0,
+   "link_to": "Payment Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83d\udce6 \u0627\u0644\u0645\u0634\u062a\u0631\u064a\u0627\u062a",
+   "link_count": 6,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Supplier",
+   "link_count": 0,
+   "link_to": "Supplier",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Supplier Quotation",
+   "link_count": 0,
+   "link_to": "Supplier Quotation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Purchase Order",
+   "link_count": 0,
+   "link_to": "Purchase Order",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Purchase Receipt",
+   "link_count": 0,
+   "link_to": "Purchase Receipt",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Purchase Invoice",
+   "link_count": 0,
+   "link_to": "Purchase Invoice",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payment Entry",
+   "link_count": 0,
+   "link_to": "Payment Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83d\udce6 \u0627\u0644\u0645\u062e\u0632\u0648\u0646 \u0648\u0627\u0644\u0623\u0633\u0639\u0627\u0631",
+   "link_count": 6,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Item",
+   "link_count": 0,
+   "link_to": "Item",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Item Group",
+   "link_count": 0,
+   "link_to": "Item Group",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Item Price",
+   "link_count": 0,
+   "link_to": "Item Price",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Price List",
+   "link_count": 0,
+   "link_to": "Price List",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Warehouse",
+   "link_count": 0,
+   "link_to": "Warehouse",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Stock Reconciliation",
+   "link_count": 0,
+   "link_to": "Stock Reconciliation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83d\udcb0 \u0627\u0644\u062d\u0633\u0627\u0628\u0627\u062a",
+   "link_count": 6,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Account",
+   "link_count": 0,
+   "link_to": "Account",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Journal Entry",
+   "link_count": 0,
+   "link_to": "Journal Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payment Entry",
+   "link_count": 0,
+   "link_to": "Payment Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Bank Account",
+   "link_count": 0,
+   "link_to": "Bank Account",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sales Invoice",
+   "link_count": 0,
+   "link_to": "Sales Invoice",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Purchase Invoice",
+   "link_count": 0,
+   "link_to": "Purchase Invoice",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83e\uddee \u0627\u0644\u0636\u0631\u0627\u0626\u0628 \u0648\u0642\u0648\u0627\u0644\u0628 \u0627\u0644\u0641\u0648\u0627\u062a\u064a\u0631",
+   "link_count": 6,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sales Taxes and Charges Template",
+   "link_count": 0,
+   "link_to": "Sales Taxes and Charges Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Purchase Taxes and Charges Template",
+   "link_count": 0,
+   "link_to": "Purchase Taxes and Charges Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tax Category",
+   "link_count": 0,
+   "link_to": "Tax Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tax Rule",
+   "link_count": 0,
+   "link_to": "Tax Rule",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payment Terms Template",
+   "link_count": 0,
+   "link_to": "Payment Terms Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Terms and Conditions",
+   "link_count": 0,
+   "link_to": "Terms and Conditions",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83d\udcb0 \u0627\u0644\u0645\u062f\u0641\u0648\u0639\u0627\u062a \u0648\u0627\u0644\u0642\u064a\u0648\u062f",
+   "link_count": 6,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payment Entry",
+   "link_count": 0,
+   "link_to": "Payment Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Journal Entry",
+   "link_count": 0,
+   "link_to": "Journal Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Bank Account",
+   "link_count": 0,
+   "link_to": "Bank Account",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Mode of Payment",
+   "link_count": 0,
+   "link_to": "Mode of Payment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payment Terms Template",
+   "link_count": 0,
+   "link_to": "Payment Terms Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payment Reconciliation",
+   "link_count": 0,
+   "link_to": "Payment Reconciliation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u2699\ufe0f \u0625\u0639\u062f\u0627\u062f\u0627\u062a \u0627\u0644\u0646\u0638\u0627\u0645 \u0627\u0644\u0639\u0627\u0645\u0629",
+   "link_count": 6,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Company",
+   "link_count": 0,
+   "link_to": "Company",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Fiscal Year",
+   "link_count": 0,
+   "link_to": "Fiscal Year",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Currency",
+   "link_count": 0,
+   "link_to": "Currency",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Letter Head",
+   "link_count": 0,
+   "link_to": "Letter Head",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Print Format",
+   "link_count": 0,
+   "link_to": "Print Format",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "User",
+   "link_count": 0,
+   "link_to": "User",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u2b50 \u0627\u0644\u062a\u0642\u0627\u0631\u064a\u0631",
+   "link_count": 10,
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "\u0645\u0644\u062e\u0635 \u0641\u0648\u0627\u062a\u064a\u0631 \u0627\u0644\u0645\u0628\u064a\u0639\u0627\u062a",
+   "link_count": 0,
+   "link_to": "\u0645\u0644\u062e\u0635 \u0641\u0648\u0627\u062a\u064a\u0631 \u0627\u0644\u0645\u0628\u064a\u0639\u0627\u062a",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "\u0645\u0644\u062e\u0635 \u0641\u0648\u0627\u062a\u064a\u0631 \u0627\u0644\u0645\u0634\u062a\u0631\u064a\u0627\u062a",
+   "link_count": 0,
+   "link_to": "\u0645\u0644\u062e\u0635 \u0641\u0648\u0627\u062a\u064a\u0631 \u0627\u0644\u0645\u0634\u062a\u0631\u064a\u0627\u062a",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "\u0643\u0634\u0641 \u062d\u0633\u0627\u0628 \u0639\u0645\u064a\u0644 \u0645\u0628\u0633\u0637",
+   "link_count": 0,
+   "link_to": "\u0643\u0634\u0641 \u062d\u0633\u0627\u0628 \u0639\u0645\u064a\u0644 \u0645\u0628\u0633\u0637",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "\u0643\u0634\u0641 \u062d\u0633\u0627\u0628 \u0645\u0648\u0631\u062f \u0645\u0628\u0633\u0637",
+   "link_count": 0,
+   "link_to": "\u0643\u0634\u0641 \u062d\u0633\u0627\u0628 \u0645\u0648\u0631\u062f \u0645\u0628\u0633\u0637",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "\u062d\u0631\u0643\u0629 \u0635\u0646\u0641 \u0645\u0628\u0633\u0637\u0629",
+   "link_count": 0,
+   "link_to": "\u062d\u0631\u0643\u0629 \u0635\u0646\u0641 \u0645\u0628\u0633\u0637\u0629",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "\u0623\u0631\u0635\u062f\u0629 \u0627\u0644\u0645\u062e\u0632\u0648\u0646 \u0627\u0644\u0645\u0628\u0633\u0637\u0629",
+   "link_count": 0,
+   "link_to": "\u0623\u0631\u0635\u062f\u0629 \u0627\u0644\u0645\u062e\u0632\u0648\u0646 \u0627\u0644\u0645\u0628\u0633\u0637\u0629",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "\u0643\u0634\u0641 \u0627\u0644\u062e\u0632\u064a\u0646\u0629 \u0648\u0627\u0644\u0645\u062f\u0641\u0648\u0639\u0627\u062a",
+   "link_count": 0,
+   "link_to": "\u0643\u0634\u0641 \u0627\u0644\u062e\u0632\u064a\u0646\u0629 \u0648\u0627\u0644\u0645\u062f\u0641\u0648\u0639\u0627\u062a",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "\u0645\u0644\u062e\u0635 \u0627\u0644\u0645\u0628\u064a\u0639\u0627\u062a \u0627\u0644\u064a\u0648\u0645\u064a",
+   "link_count": 0,
+   "link_to": "\u0645\u0644\u062e\u0635 \u0627\u0644\u0645\u0628\u064a\u0639\u0627\u062a \u0627\u0644\u064a\u0648\u0645\u064a",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "\u0645\u0631\u062a\u062c\u0639\u0627\u062a \u0627\u0644\u0645\u0628\u064a\u0639\u0627\u062a",
+   "link_count": 0,
+   "link_to": "\u0645\u0631\u062a\u062c\u0639\u0627\u062a \u0627\u0644\u0645\u0628\u064a\u0639\u0627\u062a",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "\u0645\u0631\u062a\u062c\u0639\u0627\u062a \u0627\u0644\u0645\u0634\u062a\u0631\u064a\u0627\u062a",
+   "link_count": 0,
+   "link_to": "\u0645\u0631\u062a\u062c\u0639\u0627\u062a \u0627\u0644\u0645\u0634\u062a\u0631\u064a\u0627\u062a",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-10-14 23:47:44.132261",
+ "modified_by": "Administrator",
+ "module": "tajer smart pro",
+ "name": "\ud83d\uded2 \u0633\u0645\u0627\u0631\u062a \u0628\u0631\u0648",
+ "number_cards": [],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "New",
+   "label": "\ud83e\uddfe \u0641\u0627\u062a\u0648\u0631\u0629 \u0645\u0628\u064a\u0639\u0627\u062a \u062c\u062f\u064a\u062f\u0629",
+   "link_to": "Sales Invoice",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "\ud83e\uddfe \u0642\u0627\u0626\u0645\u0629 \u0641\u0648\u0627\u062a\u064a\u0631 \u0627\u0644\u0645\u0628\u064a\u0639\u0627\u062a",
+   "link_to": "Sales Invoice",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "New",
+   "label": "\ud83d\udce6 \u0641\u0627\u062a\u0648\u0631\u0629 \u0645\u0634\u062a\u0631\u064a\u0627\u062a \u062c\u062f\u064a\u062f\u0629",
+   "link_to": "Purchase Invoice",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "\ud83d\udce6 \u0642\u0627\u0626\u0645\u0629 \u0641\u0648\u0627\u062a\u064a\u0631 \u0627\u0644\u0645\u0634\u062a\u0631\u064a\u0627\u062a",
+   "link_to": "Purchase Invoice",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "New",
+   "label": "\ud83d\udcdd \u0639\u0631\u0636 \u0633\u0639\u0631 \u062c\u062f\u064a\u062f",
+   "link_to": "Quotation",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "New",
+   "label": "\ud83d\udccb \u0623\u0645\u0631 \u0645\u0628\u064a\u0639 \u062c\u062f\u064a\u062f",
+   "link_to": "Sales Order",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "\ud83c\udff7 \u0635\u0646\u0641 \u062c\u062f\u064a\u062f",
+   "link_to": "Item",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "New",
+   "label": "\ud83d\udc64 \u0639\u0645\u064a\u0644 \u062c\u062f\u064a\u062f",
+   "link_to": "Customer",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "New",
+   "label": "\ud83d\ude9a \u0645\u0648\u0631\u062f \u062c\u062f\u064a\u062f",
+   "link_to": "Supplier",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "New",
+   "label": "\ud83d\udcb5 \u0633\u0646\u062f \u0642\u0628\u0636 \u062c\u062f\u064a\u062f",
+   "link_to": "Payment Entry",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "New",
+   "label": "\ud83d\udcb3 \u0633\u0646\u062f \u062f\u0641\u0639 \u062c\u062f\u064a\u062f",
+   "link_to": "Payment Entry",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "\ud83d\udce5 \u0642\u064a\u062f \u0645\u062e\u0632\u0646\u064a \u062c\u062f\u064a\u062f",
+   "link_to": "Stock Entry",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "New",
+   "label": "\ud83d\udc65 \u0645\u0648\u0638\u0641 \u062c\u062f\u064a\u062f",
+   "link_to": "Employee",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "\ud83d\udc64 \u0645\u0633\u062a\u062e\u062f\u0645 \u062c\u062f\u064a\u062f",
+   "link_to": "User",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "New",
+   "label": "\u2795 \u0625\u0646\u0634\u0627\u0621 \u062d\u0633\u0627\u0628",
+   "link_to": "Account",
+   "type": "DocType"
+  }
+ ],
+ "title": "\ud83d\uded2 \u0633\u0645\u0627\u0631\u062a \u0628\u0631\u0648"
+}

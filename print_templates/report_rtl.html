@@ -1,0 +1,100 @@
+<style type="text/css">
+	.rtl-report { direction: rtl; font-family: "Tajawal", Tahoma, "Segoe UI", sans-serif; color: #1f2933; font-size: 11.5px; -webkit-print-color-adjust: exact; }
+	.rtl-report .rep-head { display: flex; flex-direction: column; border-bottom: 3px solid #0b4f63; margin-bottom: 8px; padding-bottom: 6px; }
+	.rtl-report .rep-title {
+		align-self: flex-start; font-size: 16px; font-weight: 700; color: #fff;
+		background-color: #0b4f63;
+		background-image: linear-gradient(135deg, #0b4f63 0%, #15708c 100%);
+		border-radius: 8px; padding: 5px 20px; box-shadow: 0 2px 5px rgba(11,79,99,.2);
+	}
+	.rtl-report .rep-subtitle { font-size: 10.5px; color: #0b4f63; margin-top: 4px; }
+	.rtl-report .rep-filters {
+		font-size: 10.5px; background: #eef6f8; border: 2px solid #000;
+		border-radius: 6px; padding: 5px 9px; margin: 6px 0 8px;
+	}
+	.rtl-report .rep-filters .filter-row { display: inline-block; margin-inline-end: 12px; }
+	.rtl-report .rep-filters .k { font-weight: 700; color: #0b4f63; }
+	.rtl-report table.rep-grid {
+		width: 100%; border-collapse: collapse; font-size: 10.5px;
+		border: 2px solid #000;
+	}
+	.rtl-report table.rep-grid th, .rtl-report table.rep-grid td {
+		border: 2px solid #000; padding: 1px; vertical-align: middle;
+	}
+	.rtl-report table.rep-grid thead th {
+		background-color: #0b4f63;
+		background-image: linear-gradient(135deg, #0b4f63 0%, #15708c 100%);
+		color: #fff; font-weight: 700; text-align: center; font-size: 10px;
+		white-space: nowrap;
+	}
+	.rtl-report table.rep-grid tbody tr:last-child td { }
+	.rtl-report table.rep-grid tbody td.num, .rtl-report table.rep-grid thead th.num { text-align: left; }
+	.rtl-report table.rep-grid tbody tr:nth-child(even) { background: #f8fbfc; }
+	.rtl-report table.rep-grid tr.total-row td { font-weight: 700; background: #dceef2; border-top: 3px solid #0b4f63; }
+	.rtl-report table.rep-grid tr.grand-row td { background: #cfe4e9; border-top: 3px solid #0b4f63; border-bottom: 3px solid #0b4f63; font-weight: 700; }
+	.rtl-report .rep-footer-line { margin-top: 8px; font-size: 10px; color: #5b7280; text-align: right; }
+	.rtl-report .rep-footer-line .pg { margin-inline-start: 12px; }
+	th { text-align: center; }
+</style>
+
+<div class="rtl-report">
+	<div class="rep-head">
+		<div class="rep-title">{{ __(title) }}</div>
+		{% if subtitle %}<div class="rep-subtitle">{{ subtitle }}</div>{% endif %}
+	</div>
+
+	{% if print_settings.include_filters && subtitle %}<div class="rep-filters">{{ subtitle }}</div>{% endif %}
+
+	<table class="rep-grid">
+		<thead>
+			<tr>
+				<th style="width:26px">م</th>
+				{% for col in columns %}
+					{% if col.name && col._id !== "_check" %}
+					<th {% if frappe.model.is_numeric_field(col.fieldtype) %}class="num"{% endif %} {% if col.minWidth %}style="min-width: {{ col.minWidth }}px"{% endif %}>
+						{{ __(col.name) }}
+					</th>
+					{% endif %}
+				{% endfor %}
+			</tr>
+		</thead>
+		<tbody>
+			{% for row in data %}
+				<tr class="{% if row.bold == 1 %}total-row{% endif %}{% if row.is_total_row %}grand-row{% endif %}">
+					<td class="idx">{% if row.is_total_row %}<b>{{ __("الإجمالي") }}</b>{% else %}{{ row._index + 1 }}{% endif %}</td>
+					{% for col in columns %}
+						{% if col.name && col._id !== "_check" %}
+							{% var value = col.fieldname ? row[col.fieldname] : row[col.id] %}
+							{% var longest_word = cstr(value).split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, ""); %}
+							<td class="{% if frappe.model.is_numeric_field(col.fieldtype) %}num{% endif %}{% if longest_word.length > 45 %} overflow-wrap-anywhere{% endif %}">
+								<span {% if col._index == 0 %}style="padding-inline-start: {%= cint(row.indent || 0) * 2 %}em"{% endif %}>
+									{% format_data = row.is_total_row && ["Currency", "Float"].includes(col.fieldtype) ? data[0] : row %}
+									{% if (row.is_total_row && col._index == 0) { %}
+										{{ __("الإجمالي") }}
+									{% } else if (col.fieldtype == "Check") { %}
+										{{ value == 1 ? "✓" : "✗" }}
+									{% } else { %}
+										{{
+											col.formatter
+												? col.formatter(row._index, col._index, value, col, format_data, true)
+												: col.format
+													? col.format(value, row, col, format_data)
+													: col.docfield
+														? frappe.format(value, col.docfield)
+														: value
+										}}
+									{% } %}
+								</span>
+							</td>
+						{% endif %}
+					{% endfor %}
+				</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+
+	<div class="rep-footer-line">
+		<span>{{ __("طباعة: {0}", [frappe.session.user_fullname || frappe.session.user]) }}</span>
+		<span class="pg">{{ __("التاريخ: {0}", [frappe.datetime.str_to_user(frappe.datetime.now_datetime().slice(0, 10))]) }}</span>
+	</div>
+</div>

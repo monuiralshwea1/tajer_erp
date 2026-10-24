@@ -1,0 +1,273 @@
+{
+ "charts": [],
+ "content": "[{\"id\": \"0aa95oq6tc\", \"type\": \"header\", \"data\": {\"col\": 12, \"text\": \"<b>\ud83c\udfe2 \u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0634\u0631\u0643\u0629 \u0627\u0644\u0623\u0633\u0627\u0633\u064a\u0629</b>\"}}, {\"id\": \"ga6asj1bc8\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83c\udfe2 \u0627\u0644\u0634\u0631\u0643\u0629\"}}, {\"id\": \"1wvyhsa1f8\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83d\udcc5 \u0627\u0644\u0633\u0646\u0629 \u0627\u0644\u0645\u0627\u0644\u064a\u0629\"}}, {\"id\": \"xqcqe7z98i\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83d\udcb1 \u0627\u0644\u0639\u0645\u0644\u0627\u062a\"}}, {\"id\": \"hpkxorjap4\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83e\uddee \u0623\u0646\u0648\u0627\u0639 \u0627\u0644\u0636\u0631\u0627\u0626\u0628\"}}, {\"id\": \"4k5z82ej6b\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83d\udcdd \u0634\u0631\u0648\u0637 \u0627\u0644\u062f\u0641\u0639\"}}, {\"id\": \"9rqcrd2ljq\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"1oa9fkim1p\", \"type\": \"header\", \"data\": {\"col\": 12, \"text\": \"<b>\ud83d\udce6 \u062a\u0647\u064a\u0626\u0629 \u0627\u0644\u0645\u062e\u0632\u0648\u0646 \u0648\u0627\u0644\u0623\u0635\u0646\u0627\u0641</b>\"}}, {\"id\": \"0153h3n1c5\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83c\udfec \u0627\u0644\u0645\u0633\u062a\u0648\u062f\u0639\u0627\u062a\"}}, {\"id\": \"6anpa8eype\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83d\uddc2 \u0645\u062c\u0645\u0648\u0639\u0627\u062a \u0627\u0644\u0623\u0635\u0646\u0627\u0641\"}}, {\"id\": \"is7ut0ibxd\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83d\udccf \u0648\u062d\u062f\u0627\u062a \u0627\u0644\u0642\u064a\u0627\u0633\"}}, {\"id\": \"il8io3tmse\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83c\udff7 \u0642\u0648\u0627\u0626\u0645 \u0627\u0644\u0623\u0633\u0639\u0627\u0631\"}}, {\"id\": \"d8gmokk4yo\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\u2699\ufe0f \u0625\u0639\u062f\u0627\u062f\u0627\u062a \u0627\u0644\u0645\u062e\u0632\u0648\u0646\"}}, {\"id\": \"2di1jho6ty\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83d\udecd \u0625\u0639\u062f\u0627\u062f\u0627\u062a \u0627\u0644\u0628\u064a\u0639\"}}, {\"id\": \"5myu261lpn\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"i05dlkr7ma\", \"type\": \"header\", \"data\": {\"col\": 12, \"text\": \"<b>\ud83d\udda8 \u0627\u0644\u0637\u0628\u0627\u0639\u0629 \u0648\u0627\u0644\u0645\u0633\u062a\u062e\u062f\u0645\u0648\u0646</b>\"}}, {\"id\": \"pj6op3rfm9\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83d\udda8 \u062a\u0631\u0648\u064a\u0633\u0629 \u0627\u0644\u0637\u0628\u0627\u0639\u0629\"}}, {\"id\": \"iq86w2e488\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83d\udda8 \u0646\u0645\u0627\u0630\u062c \u0627\u0644\u0637\u0628\u0627\u0639\u0629\"}}, {\"id\": \"3d4xum7p56\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83d\udc65 \u0627\u0644\u0645\u0633\u062a\u062e\u062f\u0645\u0648\u0646\"}}, {\"id\": \"cpok2btt7p\", \"type\": \"shortcut\", \"data\": {\"col\": 3, \"shortcut_name\": \"\ud83d\udd11 \u0627\u0644\u0623\u062f\u0648\u0627\u0631 \u0648\u0627\u0644\u0635\u0644\u0627\u062d\u064a\u0627\u062a\"}}, {\"id\": \"3m78yspjea\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"tjt1yp2fog\", \"type\": \"header\", \"data\": {\"col\": 12, \"text\": \"<b>\ud83d\udca1 \u0647\u0630\u0647 \u0628\u0637\u0627\u0642\u0627\u062a \u062a\u0633\u0647\u0651\u0644 \u0627\u0644\u0639\u0645\u0644 \u2014 \u062a\u0633\u062a\u0637\u064a\u0639 \u0641\u062a\u062d \u0623\u064a \u0646\u0627\u0641\u0630\u0629 \u0641\u064a \u0627\u0644\u0646\u0638\u0627\u0645 \u0645\u0646 \u062e\u0644\u0627\u0644 \u0627\u0644\u0636\u063a\u0637 \u0639\u0644\u0649 \u0627\u0633\u0645 \u0627\u0644\u0648\u0627\u062c\u0647\u0629</b>\"}}, {\"id\": \"hb6gudz1w8\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"upxtt6ictw\", \"type\": \"card\", \"data\": {\"col\": 6, \"card_name\": \"\ud83d\udcb0 \u0627\u0644\u0634\u0631\u0643\u0629 \u0648\u0627\u0644\u0645\u0627\u0644\u064a\u0629\"}}, {\"id\": \"h7jpczt8as\", \"type\": \"card\", \"data\": {\"col\": 6, \"card_name\": \"\ud83d\udce6 \u0627\u0644\u0645\u062e\u0632\u0648\u0646 \u0648\u0627\u0644\u0628\u064a\u0639\"}}]",
+ "creation": "2026-10-14 23:11:22.775751",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "settings",
+ "idx": 0,
+ "indicator_color": "orange",
+ "is_hidden": 0,
+ "label": "\u2699\ufe0f \u062a\u0647\u064a\u0626\u0629 \u0633\u0645\u0627\u0631\u062a \u0628\u0631\u0648",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83d\udcb0 \u0627\u0644\u0634\u0631\u0643\u0629 \u0648\u0627\u0644\u0645\u0627\u0644\u064a\u0629",
+   "link_count": 6,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Company",
+   "link_count": 0,
+   "link_to": "Company",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Fiscal Year",
+   "link_count": 0,
+   "link_to": "Fiscal Year",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Currency",
+   "link_count": 0,
+   "link_to": "Currency",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Account",
+   "link_count": 0,
+   "link_to": "Account",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Letter Head",
+   "link_count": 0,
+   "link_to": "Letter Head",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payment Terms Template",
+   "link_count": 0,
+   "link_to": "Payment Terms Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83d\udce6 \u0627\u0644\u0645\u062e\u0632\u0648\u0646 \u0648\u0627\u0644\u0628\u064a\u0639",
+   "link_count": 6,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Warehouse",
+   "link_count": 0,
+   "link_to": "Warehouse",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Item Group",
+   "link_count": 0,
+   "link_to": "Item Group",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "UOM",
+   "link_count": 0,
+   "link_to": "UOM",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Price List",
+   "link_count": 0,
+   "link_to": "Price List",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Stock Settings",
+   "link_count": 0,
+   "link_to": "Stock Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Selling Settings",
+   "link_count": 0,
+   "link_to": "Selling Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-10-14 23:47:45.432482",
+ "modified_by": "Administrator",
+ "module": "tajer smart pro",
+ "name": "\u2699\ufe0f \u062a\u0647\u064a\u0626\u0629 \u0633\u0645\u0627\u0631\u062a \u0628\u0631\u0648",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "\ud83d\uded2 \u0633\u0645\u0627\u0631\u062a \u0628\u0631\u0648",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 2.0,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "\ud83c\udfe2 \u0627\u0644\u0634\u0631\u0643\u0629",
+   "link_to": "Company",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "\ud83d\udcc5 \u0627\u0644\u0633\u0646\u0629 \u0627\u0644\u0645\u0627\u0644\u064a\u0629",
+   "link_to": "Fiscal Year",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "\ud83d\udcb1 \u0627\u0644\u0639\u0645\u0644\u0627\u062a",
+   "link_to": "Currency",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "\ud83e\uddee \u0623\u0646\u0648\u0627\u0639 \u0627\u0644\u0636\u0631\u0627\u0626\u0628",
+   "link_to": "Sales Taxes and Charges Template",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "\ud83d\udcdd \u0634\u0631\u0648\u0637 \u0627\u0644\u062f\u0641\u0639",
+   "link_to": "Payment Terms Template",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "\ud83c\udfec \u0627\u0644\u0645\u0633\u062a\u0648\u062f\u0639\u0627\u062a",
+   "link_to": "Warehouse",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "\ud83d\uddc2 \u0645\u062c\u0645\u0648\u0639\u0627\u062a \u0627\u0644\u0623\u0635\u0646\u0627\u0641",
+   "link_to": "Item Group",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "\ud83d\udccf \u0648\u062d\u062f\u0627\u062a \u0627\u0644\u0642\u064a\u0627\u0633",
+   "link_to": "UOM",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "\ud83c\udff7 \u0642\u0648\u0627\u0626\u0645 \u0627\u0644\u0623\u0633\u0639\u0627\u0631",
+   "link_to": "Price List",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "\u2699\ufe0f \u0625\u0639\u062f\u0627\u062f\u0627\u062a \u0627\u0644\u0645\u062e\u0632\u0648\u0646",
+   "link_to": "Stock Settings",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "\ud83d\udecd \u0625\u0639\u062f\u0627\u062f\u0627\u062a \u0627\u0644\u0628\u064a\u0639",
+   "link_to": "Selling Settings",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "\ud83d\udda8 \u062a\u0631\u0648\u064a\u0633\u0629 \u0627\u0644\u0637\u0628\u0627\u0639\u0629",
+   "link_to": "Letter Head",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "\ud83d\udda8 \u0646\u0645\u0627\u0630\u062c \u0627\u0644\u0637\u0628\u0627\u0639\u0629",
+   "link_to": "Print Format",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "\ud83d\udc65 \u0627\u0644\u0645\u0633\u062a\u062e\u062f\u0645\u0648\u0646",
+   "link_to": "User",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "\ud83d\udd11 \u0627\u0644\u0623\u062f\u0648\u0627\u0631 \u0648\u0627\u0644\u0635\u0644\u0627\u062d\u064a\u0627\u062a",
+   "link_to": "Role",
+   "type": "DocType"
+  }
+ ],
+ "title": "\u2699\ufe0f \u062a\u0647\u064a\u0626\u0629 \u0633\u0645\u0627\u0631\u062a \u0628\u0631\u0648"
+}

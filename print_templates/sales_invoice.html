@@ -1,0 +1,186 @@
+<style type="text/css">
+	@page { size: A4; margin: 12mm 10mm; }
+	.print-format {
+		background-color: white;
+		border-radius: 8px;
+		max-width: 8.3in;
+		min-height: 1.69in;
+		margin: auto;
+		padding: 13px;
+	}
+	body, .via-wrapper { font-family: "Tajawal", Tahoma, "Segoe UI", sans-serif; direction: rtl; color: #1f2933; font-size: 11.5px; -webkit-print-color-adjust: exact; }
+	.via-wrapper { width: 100%; }
+	.via-letter { border-bottom: 3px solid #0b4f63; margin-bottom: 8px; padding-bottom: 6px; }
+	.via-letter img { display: block; }
+	.via-titlebar { display: flex; justify-content: space-between; align-items: center; margin: 6px 0 8px; }
+	.via-titlebar .ti {
+		font-size: 17px; font-weight: 700; color: #fff;
+		background-color: #0b4f63;
+		background-image: linear-gradient(135deg, #0b4f63 0%, #15708c 100%);
+		border-radius: 10px; padding: 6px 28px;
+		box-shadow: 0 2px 6px rgba(11,79,99,.25);
+	}
+	.via-titlebar .no { font-size: 12px; font-weight: 700; color: #0b4f63; background: #eef6f8; border: 2px solid #000; border-radius: 8px; padding: 4px 12px; }
+	table.via-meta { width: 100%; border-collapse: collapse; font-size: 11px; margin-bottom: 8px; }
+	table.via-meta td { border: 2px solid #000; padding: 1px; }
+	table.via-meta td.lab { background: #eef6f8; font-weight: 700; width: 11%; white-space: nowrap; color: #0b4f63; }
+	table.via-items { width: 100%; border-collapse: collapse; font-size: 11px; border: 2px solid #000; }
+	table.via-items th, table.via-items td { border: 2px solid #000; padding: 1px; }
+	table.via-items thead th {
+		background-color: #0b4f63;
+		background-image: linear-gradient(135deg, #0b4f63 0%, #15708c 100%);
+		color: #fff; text-align: center; font-weight: 700;
+	}
+	table.via-items tbody tr:last-child td { }
+	table.via-items td.num, table.via-items th.num { text-align: left; }
+	table.via-items tbody tr:nth-child(even) { background: #f8fbfc; }
+	table.via-items .item-meta { color: #5b7280; font-size: 9.5px; }
+	.via-sumzone { margin-top: 10px; display: flex; justify-content: space-between; align-items: flex-start; gap: 14px; }
+	table.via-total { border-collapse: collapse; font-size: 11.5px; }
+	table.via-total td { padding: 1px; border: 2px solid #000; }
+	table.via-total td.lab { background: #eef6f8; font-weight: 700; color: #0b4f63; }
+	table.via-total td.val { text-align: left; font-weight: 700; min-width: 90px; }
+	table.via-total tr.via-g tr:last-child td { background: #dceef2; font-size: 13px; border-top: 3px solid #0b4f63; }
+	.via-grand {
+		text-align: left; font-size: 14px; font-weight: 700; color: #0b4f63;
+		border: 2px solid #0b4f63; border-radius: 10px; padding: 8px 14px;
+		background-color: #eef6f8;
+		background-image: linear-gradient(135deg, #eef6f8 0%, #dceef2 100%);
+		box-shadow: 0 2px 6px rgba(11,79,99,.18);
+	}
+	.via-words { margin-top: 10px; font-size: 12px; font-weight: 700; background-color: #f8fbfc; background-image: linear-gradient(135deg,#f8fbfc,#eef6f8); border: 2px solid #000; border-radius: 8px; padding: 7px 10px; color: #0b4f63; }
+	.via-notes { margin-top: 6px; font-size: 10.5px; color: #5b7280; }
+	.via-sign { margin-top: 34px; display: flex; justify-content: space-between; padding-inline: 8%; }
+	.via-sign div { text-align: center; font-weight: 700; font-size: 11.5px; }
+	.via-sign .line { margin-top: 30px; border-top: 1px solid #333; min-width: 130px; color: #374956; }
+	.letter-head-footer { font-size: 10px; color: #5b7280; text-align: center; }
+	#footer-html { text-align: center; }
+	.page-number { font-size: 10px; color: #5b7280; margin-top: 2px; }
+	.visible-pdf, .hidden-pdf { display: block !important; }
+	th { text-align: center; }
+</style>
+
+{% set units_d = {1:"واحد",2:"اثنان",3:"ثلاثة",4:"أربعة",5:"خمسة",6:"ستة",7:"سبعة",8:"ثمانية",9:"تسعة"} %}
+{% set tens_d = {10:"عشرة",20:"عشرون",30:"ثلاثون",40:"أربعون",50:"خمسون",60:"ستون",70:"سبعون",80:"ثمانون",90:"تسعون"} %}
+{% set teens_d = {11:"أحد عشر",12:"اثنا عشر",13:"ثلاثة عشر",14:"أربعة عشر",15:"خمسة عشر",16:"ستة عشر",17:"سبعة عشر",18:"ثمانية عشر",19:"تسعة عشر"} %}
+{% set hund_d = {1:"مائة",2:"مائتان",3:"ثلاثمائة",4:"أربعمائة",5:"خمسمائة",6:"ستمائة",7:"سبعمائة",8:"ثمانمائة",9:"تسعمائة"} %}
+
+{% macro trio(n) %}
+	{% set h = (n // 100) %}{% set r = (n % 100) %}{% set p = [] %}
+	{% if h %}{% set _x = p.append(hund_d[h]) %}{% endif %}
+	{% if r and r < 10 %}{% set _x = p.append(units_d[r]) %}{% endif %}
+	{% if r >= 10 and r < 20 %}{% set _x = p.append(teens_d[r]) %}{% endif %}
+	{% if r >= 20 %}{% set u = r % 10 %}{% set t = r - u %}{% if u %}{% set _x = p.append(units_d[u]) %}{% endif %}{% set _x = p.append(tens_d[t]) %}{% endif %}
+	{{ p|join(" و ") }}
+{% endmacro %}
+
+{% macro scale(g, s1, s2, s3, s11) %}
+	{% if g == 1 %}{{ s1 }}{% elif g == 2 %}{{ s2 }}{% elif g <= 10 %}{{ trio(g) }} {{ s3 }}{% else %}{{ trio(g) }} {{ s11 }}{% endif %}
+{% endmacro %}
+
+{% macro ar_num(n) %}
+	{% set nv = n %}{% set pr = [] %}
+	{% if nv >= 1000000000 %}{% set b = nv // 1000000000 %}{% set nv = nv % 1000000000 %}{% set _x = pr.append(scale(b, "مليار", "ملياران", "مليارات", "مليارًا")) %}{% endif %}
+	{% if nv >= 1000000 %}{% set m = nv // 1000000 %}{% set nv = nv % 1000000 %}{% set _x = pr.append(scale(m, "مليون", "مليونان", "ملايين", "مليونًا")) %}{% endif %}
+	{% if nv >= 1000 %}{% set k = nv // 1000 %}{% set nv = nv % 1000 %}{% set _x = pr.append(scale(k, "ألف", "ألفان", "آلاف", "ألفًا")) %}{% endif %}
+	{% if nv %}{% set _x = pr.append(trio(nv)) %}{% endif %}
+	{% if pr|length == 0 %}{{ "صفر" }}{% else %}{{ pr|join(" و ") }}{% endif %}
+{% endmacro %}
+
+{% macro moneys(m) %}
+	{% set main = m|int %}
+	{% set frac = ((m - main) * 100) | int %}
+	{% if frac %}{{ ar_num(main) }} و{{ ar_num(frac) }} فلسًا{% else %}{{ ar_num(main) }} ريالًا{% endif %}
+{% endmacro %}
+
+<div class="via-wrapper">
+	{% if print_settings.repeat_header_footer %}
+	<div id="header-html" class="hidden-pdf"><div class="via-letter">{{ letter_head }}</div></div>
+	{% else %}
+	{% if not no_letterhead %}<div class="via-letter">{{ letter_head }}</div>{% endif %}
+	{% endif %}
+
+	<div class="via-titlebar">
+		<div class="ti">{{ doc.select_print_heading or "فاتورة مبيعات" }}</div>
+		<div class="no">{{ ("فاتورة رقم: " + (doc.name or "")) if doc.name else "" }}</div>
+	</div>
+
+	<table class="via-meta">
+		<tr>
+			<td class="lab">التاريخ</td><td>{{ doc.get_formatted("posting_date") }}</td>
+			<td class="lab">المستحق</td><td>{{ doc.get_formatted("due_date") or "—" }}</td>
+			<td class="lab">التسعيرة</td><td>{{ doc.get("selling_price_list") or "—" }}</td>
+		</tr>
+		<tr>
+			<td class="lab">العميل</td><td>{{ doc.customer_name or doc.customer }}</td>
+			<td class="lab">الجوال</td><td>{{ frappe.db.get_value("Customer", doc.customer, "mobile_no") or "—" }}</td>
+			<td class="lab">المخزن</td><td>{{ doc.set_warehouse or (doc.items[0].warehouse if doc.items else "") or "—" }}</td>
+		</tr>
+	</table>
+
+	<table class="via-items">
+		<thead>
+			<tr>
+				<th style="width:26px">م</th>
+				<th>الصنف</th>
+				<th style="width:58px">الوحدة</th>
+				<th class="num" style="width:66px">الكمية</th>
+				<th class="num" style="width:88px">السعر</th>
+				<th class="num" style="width:78px">الخصم</th>
+				<th class="num" style="width:110px">الإجمالي</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for it in doc.items %}
+			<tr>
+				<td class="num">{{ loop.index }}</td>
+				<td>
+					{{ it.item_name or it.item_code }}
+					{% if it.item_code and it.item_code != it.item_name %}<div class="item-meta">كود: {{ it.item_code }}</div>{% endif %}
+					{% if it.description %}<div class="item-meta">{{ it.description }}</div>{% endif %}
+				</td>
+				<td>{{ it.uom or it.stock_uom }}</td>
+				<td class="num">{{ it.get_formatted("qty", doc) }}</td>
+				<td class="num">{{ it.get_formatted("rate", doc) }}</td>
+				<td class="num">{{ it.get_formatted("discount_amount", doc) if it.discount_amount else "—" }}</td>
+				<td class="num">{{ it.get_formatted("amount", doc) }}</td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+
+	<div class="via-sumzone">
+		<div>
+			<table class="via-total">
+				<tr><td class="lab">الإجمالي قبل الخصم</td><td class="val">{{ doc.get_formatted("net_total") }}</td></tr>
+				{% if doc.discount_amount %}<tr><td class="lab">الخصم</td><td class="val">{{ doc.get_formatted("discount_amount") }}</td></tr>{% endif %}
+				{% if doc.total_taxes_and_charges %}<tr><td class="lab">الضرائب والرسوم</td><td class="val">{{ doc.get_formatted("total_taxes_and_charges") }}</td></tr>{% endif %}
+				<tr class="via-g"><td class="lab">الإجمالي المستحق</td><td class="val">{{ doc.get_formatted("grand_total") }}</td></tr>
+				{% if doc.outstanding_amount %}<tr><td class="lab">المتبقي</td><td class="val">{{ doc.get_formatted("outstanding_amount") }}</td></tr>{% endif %}
+			</table>
+		</div>
+		<div class="via-grand">{{ doc.get_formatted("grand_total") }}<br>{{ doc.currency }}</div>
+	</div>
+
+	<div class="via-words">المبلغ كتابةً: {{ moneys(doc.grand_total or 0) }} فقط لا غير</div>
+
+	{% if doc.terms %}<div class="via-notes">{{ doc.terms }}</div>{% endif %}
+
+	<div class="via-sign">
+		<div>
+			<div>المحاسب</div>
+			<div class="line">{{ frappe.db.get_value("User", doc.owner, "full_name") or doc.owner }}</div>
+		</div>
+		<div>
+			<div>المستلم / العميل</div>
+			<div class="line"></div>
+		</div>
+	</div>
+
+	{% if print_settings.repeat_header_footer %}
+	<div id="footer-html" class="visible-pdf">
+		{% if not no_letterhead and footer %}<div class="letter-head-footer">{{ footer }}</div>{% endif %}
+		<p class="page-number">صفحة <span class="page"></span> من <span class="topage"></span></p>
+	</div>
+	{% endif %}
+</div>
